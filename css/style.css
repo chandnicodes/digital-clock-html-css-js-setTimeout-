@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.clock_wrap {
+    position: relative;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000f2;
+}
+
+.time_units {
+    background: rgb(20, 20, 20);
+    box-shadow: 2px 2px 4px 21px #2a2929;
+    color: #ffffff;
+    padding: 22px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    border-radius: 50px;
+    width: 420px;
+}
+
+.time_units div {
+    width: 25%;
+    margin-left: 8px;
+}
+
+#day_slot {
+    margin-left: 10px;
+}
